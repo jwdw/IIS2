@@ -1,4 +1,4 @@
 function distance = EuclideanDistance(a,b)
 
-distance = sum((a-b).^2);
+distance = sqrt(sum((a-b).^2));
 
