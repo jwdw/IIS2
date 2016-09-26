@@ -65,5 +65,6 @@ end
 %plot quantization error
 figure(2);
 plot(qErr);
+title(sprintf('Quantization error for learningRate = %d, K = %d', learningRate, K ));
 xlabel('Epoch');
 ylabel('Quantization error');
